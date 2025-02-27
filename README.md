@@ -46,12 +46,11 @@ This repository contains prompt engineering scripts designed for **generating an
   
 **Usage:**
   1. Install dependencies:
-     
     ```sh
     pip install --upgrade openai python-dotenv
     
   3. Set up your OpenAI API Key in the script:
-    ```sh 
+    ```sh
     OPEN_API_KEY = "your_openai_api_key"
    
   4. Run the script:
