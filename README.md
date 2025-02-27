@@ -31,7 +31,7 @@ This repository contains prompt engineering scripts designed for **generating an
      ```sh
      python prompts/Prompt-using-Llama-and-Vicuna.py
 
-  4. Outputs are saved in misinfo_Llama_generated.txt , misinfo_Vicuna_generated.txt < br / >
+  4. Outputs are saved in misinfo_Llama_generated.txt , misinfo_Vicuna_generated.txt
 
    
 ### 2️⃣ Prompt-using-OpenAI.py
@@ -44,12 +44,13 @@ This repository contains prompt engineering scripts designed for **generating an
   - openai
   - python-dotenv (optional for API key management)
   
-**Usage:** < br / >
-  1. Install dependencies: < br / >
+**Usage:**
+  1. Install dependencies:
+     
     ```sh
     pip install --upgrade openai python-dotenv
     
-  2. Set up your OpenAI API Key in the script:
+  3. Set up your OpenAI API Key in the script:
     ```sh 
     OPEN_API_KEY = "your_openai_api_key"
    
@@ -60,5 +61,5 @@ This repository contains prompt engineering scripts designed for **generating an
   5. Outputs are the misinformation generation and the misinformation detection result for the given text.
      
 
-###📜 License
+### 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.  
