@@ -31,7 +31,7 @@ This repository contains prompt engineering scripts designed for **generating an
      ```sh
      python prompts/Prompt-using-Llama-and-Vicuna.py
 
-  4. Outputs are saved in misinfo_Llama_generated.txt , misinfo_Vicuna_generated.txt  
+  4. Output is saved in Generated-Misinfo.txt  
 
    
 ### 2️⃣ Prompt-using-OpenAI.py
