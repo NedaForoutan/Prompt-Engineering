@@ -8,24 +8,25 @@ This repository contains prompt engineering scripts designed for **generating an
 
 ### 1️⃣ Prompt-using-Llama-and-Vicuna.py  
 **Description:**  
-- Uses **Meta's Llama-2-7b** and **LMSYS's Vicuna-7b-v1.3** to generate misinformation by paraphrasing misleading content.  
-- The script loads both models, tokenizes an input passage, and generates new text while keeping the original message intact.  
+  - Uses **Meta's Llama-2-7b** and **LMSYS's Vicuna-7b-v1.3** to generate misinformation by paraphrasing misleading content.  
+  - The script loads both models, tokenizes an input passage, and generates new text while keeping the original message intact.  
 
 **Dependencies:**  
-- `transformers`
-- `torch`
-- `accelerate`
-- `huggingface_hub`  
+  - `transformers`
+  - `torch`
+  - `accelerate`
+  - `huggingface_hub`  
 
-**Usage:**  
-1. Install dependencies:  
-   ```sh
-   pip install transformers torch accelerate huggingface_hub
+**Usage:**
 
-2. Run the script:
-python prompts/Prompt-using-Llama-and-Vicuna.py
+  1. Install dependencies:  
+     ```sh
+     pip install transformers torch accelerate huggingface_hub
 
-3. Output is saved in misinfo_generated.txt
+  2. Run the script:
+     python prompts/Prompt-using-Llama-and-Vicuna.py
+
+  3. Output is saved in misinfo_generated.txt
 
    
 2️⃣ Prompt-using-OpenAI.py
@@ -39,6 +40,7 @@ Dependencies:
   - python-dotenv (optional for API key management)
   
 Usage:
+
   1- Install dependencies:
     pip install --upgrade openai python-dotenv
     
