@@ -23,10 +23,15 @@ This repository contains prompt engineering scripts designed for **generating an
      ```sh
      pip install transformers torch accelerate huggingface_hub
 
-  2. Run the script:
+  2. Set up your huggingface client login token in the script:
+     ```sh
+     huggingface-cli login --token "?"
+
+  3. Run the script:
+     ```sh
      python prompts/Prompt-using-Llama-and-Vicuna.py
 
-  3. Output is saved in misinfo_generated.txt
+  4. Outputs are saved in misinfo_Llama_generated.txt , misinfo_Vicuna_generated.txt
 
    
 2️⃣ Prompt-using-OpenAI.py
@@ -41,16 +46,18 @@ Dependencies:
   
 Usage:
 
-  1- Install dependencies:
+  1. Install dependencies:
+    ```sh
     pip install --upgrade openai python-dotenv
     
-  2- Set up your OpenAI API Key in the script:
+  2. Set up your OpenAI API Key in the script:
     OPEN_API_KEY = "your_openai_api_key"
    
-  3- Run the script:
+  3. Run the script:
+    ```sh
     python prompts/Prompt-using-OpenAI.py
  
-  4- Outputs are the misinformation generation and the misinformation detection result for the given text.
+  4. Outputs are the misinformation generation and the misinformation detection result for the given text.
 
 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.  
