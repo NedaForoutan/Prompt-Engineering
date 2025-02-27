@@ -46,16 +46,16 @@ This repository contains prompt engineering scripts designed for **generating an
   
 **Usage:**
   1. Install dependencies:
-    ```sh
-    pip install --upgrade openai python-dotenv
+     ```sh
+     pip install --upgrade openai python-dotenv
     
   3. Set up your OpenAI API Key in the script:
-    ```sh
-    OPEN_API_KEY = "your_openai_api_key"
+     ```sh
+     OPEN_API_KEY = "your_openai_api_key"
    
   4. Run the script:
-    ```sh
-    python prompts/Prompt-using-OpenAI.py
+     ```sh
+     python prompts/Prompt-using-OpenAI.py
  
   5. Outputs are the misinformation generation and the misinformation detection result for the given text.
      
